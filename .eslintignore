@@ -2,6 +2,10 @@ node_modules
 build
 docs
 docker
+migrations
+node_modules
+seeds
+models
 test
 .vscode
 koa/views
