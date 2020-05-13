@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../controllers/user.js"],"names":["userSignup","req","res","send"],"mappings":";;;;;AAAO,MAAMA,kCAAa,CAACC,GAAD,EAAMC,GAAN,KAAcA,IAAIC,IAAJ,CAAS,mBAAT,CAAjC","file":"user.js","sourcesContent":["export const userSignup = (req, res) => res.send('User registration');\n"]}
