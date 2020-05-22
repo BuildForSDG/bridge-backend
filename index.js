@@ -3,8 +3,9 @@ import logger from 'morgan';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import {} from 'dotenv/config';
-import routes from './routes';
 import cookieParser from 'cookie-parser';
+import routes from './routes';
+
 
 const app = express();
 const port = process.env.PORT||8000;

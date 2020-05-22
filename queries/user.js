@@ -1,5 +1,6 @@
 const db = require('../models');
- let User=db.User;
+
+ const { User: User } = db;
   exports.getUserById = id => User.findOne({
     where: { id },
   });
